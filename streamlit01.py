@@ -31,7 +31,7 @@ colx1, colx2,colx3 = st.columns(3)
 with colx1:
    st.image("./pic/iris1.jpg")
 with colx2:
-   st.image("./pic/iris2.jfif")
+   st.image("./pic/iris2.jpg")
 with colx3:
    st.image("./pic/iris3.jpg")
 
