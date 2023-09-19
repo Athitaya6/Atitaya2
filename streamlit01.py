@@ -29,11 +29,11 @@ colx1, colx2,colx3 = st.columns(3)
 #col1.write("This is column 1")
 #col2.write("This is column 2")
 with colx1:
-   st.image("./pic/iris.jpg")
-with colx2:
-   st.image("./pic/iris02.jfif")
-with colx3:
    st.image("./pic/iris1.jpg")
+with colx2:
+   st.image("./pic/iris2.jfif")
+with colx3:
+   st.image("./pic/iris3.jpg")
 
 #import pandas as pd
 dt=pd.read_csv('./data/iris.csv')
@@ -81,7 +81,7 @@ if st.button("ทำนายผล"):
    st.write(Knn_model.predict(x_input))
    out=Knn_model.predict(x_input)
    if out[0]=="Setosa":
-      st.image("./pic/iris.jpg")
+      st.image("./pic/iris1.jpg")
    elif out[0]=="Versicolor":
       st.image("./pic/iris2.jpg")
    else:
