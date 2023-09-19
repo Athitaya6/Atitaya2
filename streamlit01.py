@@ -8,7 +8,8 @@ col1, col2 = st.columns(2)
 #col1.write("This is column 1")
 #col2.write("This is column 2")
 with col1:
-   st.image("./pic/kairung02.jpg")
+   #st.image("./pic/kairung02.jpg")
+   st.header("ไก้รุ่ง เฮงพระพรหม")
 with col2:
    #st.header("Versicolor")
    st.header("ไก้รุ่ง เฮงพระพรหม")
